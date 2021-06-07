@@ -14,6 +14,10 @@
 		4F78F8C2266D8836008D2321 /* tableViewUserDefaults.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F78F8C0266D8836008D2321 /* tableViewUserDefaults.xcdatamodeld */; };
 		4F78F8C4266D883E008D2321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F78F8C3266D883E008D2321 /* Assets.xcassets */; };
 		4F78F8C7266D883E008D2321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F78F8C5266D883E008D2321 /* LaunchScreen.storyboard */; };
+		4F78F8CF266DA0B2008D2321 /* Balham.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4F78F8CE266DA0B1008D2321 /* Balham.otf */; };
+		4F78F8D1266DA4C7008D2321 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F78F8D0266DA4C7008D2321 /* Student.swift */; };
+		4F78F8D3266DB0BC008D2321 /* customCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F78F8D2266DB0BC008D2321 /* customCellTableViewCell.swift */; };
+		4F78F8D5266DBF88008D2321 /* addUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F78F8D4266DBF88008D2321 /* addUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		4F78F8C3266D883E008D2321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F78F8C6266D883E008D2321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F78F8C8266D883E008D2321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F78F8CE266DA0B1008D2321 /* Balham.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Balham.otf; sourceTree = "<group>"; };
+		4F78F8D0266DA4C7008D2321 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		4F78F8D2266DB0BC008D2321 /* customCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customCellTableViewCell.swift; sourceTree = "<group>"; };
+		4F78F8D4266DBF88008D2321 /* addUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +66,12 @@
 		4F78F8B6266D8836008D2321 /* tableViewUserDefaults */ = {
 			isa = PBXGroup;
 			children = (
+				4F78F8CE266DA0B1008D2321 /* Balham.otf */,
+				4F78F8D0266DA4C7008D2321 /* Student.swift */,
 				4F78F8B7266D8836008D2321 /* AppDelegate.swift */,
+				4F78F8D2266DB0BC008D2321 /* customCellTableViewCell.swift */,
 				4F78F8B9266D8836008D2321 /* SceneDelegate.swift */,
+				4F78F8D4266DBF88008D2321 /* addUser.swift */,
 				4F78F8BB266D8836008D2321 /* ViewController.swift */,
 				4F78F8BD266D8836008D2321 /* Main.storyboard */,
 				4F78F8C3266D883E008D2321 /* Assets.xcassets */,
@@ -130,6 +142,7 @@
 			files = (
 				4F78F8C7266D883E008D2321 /* LaunchScreen.storyboard in Resources */,
 				4F78F8C4266D883E008D2321 /* Assets.xcassets in Resources */,
+				4F78F8CF266DA0B2008D2321 /* Balham.otf in Resources */,
 				4F78F8BF266D8836008D2321 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,8 +155,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F78F8C2266D8836008D2321 /* tableViewUserDefaults.xcdatamodeld in Sources */,
+				4F78F8D5266DBF88008D2321 /* addUser.swift in Sources */,
 				4F78F8BC266D8836008D2321 /* ViewController.swift in Sources */,
 				4F78F8B8266D8836008D2321 /* AppDelegate.swift in Sources */,
+				4F78F8D1266DA4C7008D2321 /* Student.swift in Sources */,
+				4F78F8D3266DB0BC008D2321 /* customCellTableViewCell.swift in Sources */,
 				4F78F8BA266D8836008D2321 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
