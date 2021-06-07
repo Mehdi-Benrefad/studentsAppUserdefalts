@@ -191,5 +191,15 @@ class ViewController: UIViewController , UITableViewDelegate , UITableViewDataSo
         return UISwipeActionsConfiguration(actions: [deleteAction])
     }
     
+    //edit
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+         if segue.identifier == "editcell"{
+             let ec = segue.destination as! editUserViewController
+             ec.index = tableview.indexPathForSelectedRow!.row
+             ec.std = self.students[tableview.indexPathForSelectedRow!.row]
+             
+         }
+     }
+     
     
 }

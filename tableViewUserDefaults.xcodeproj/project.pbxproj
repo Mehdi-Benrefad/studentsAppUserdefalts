@@ -18,6 +18,7 @@
 		4F78F8D1266DA4C7008D2321 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F78F8D0266DA4C7008D2321 /* Student.swift */; };
 		4F78F8D3266DB0BC008D2321 /* customCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F78F8D2266DB0BC008D2321 /* customCellTableViewCell.swift */; };
 		4F78F8D5266DBF88008D2321 /* addUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F78F8D4266DBF88008D2321 /* addUser.swift */; };
+		4FD41303266E42C800637F47 /* editUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD41302266E42C800637F47 /* editUserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		4F78F8D0266DA4C7008D2321 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		4F78F8D2266DB0BC008D2321 /* customCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customCellTableViewCell.swift; sourceTree = "<group>"; };
 		4F78F8D4266DBF88008D2321 /* addUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addUser.swift; sourceTree = "<group>"; };
+		4FD41302266E42C800637F47 /* editUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editUserViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				4F78F8CE266DA0B1008D2321 /* Balham.otf */,
 				4F78F8D0266DA4C7008D2321 /* Student.swift */,
 				4F78F8B7266D8836008D2321 /* AppDelegate.swift */,
+				4FD41302266E42C800637F47 /* editUserViewController.swift */,
 				4F78F8D2266DB0BC008D2321 /* customCellTableViewCell.swift */,
 				4F78F8B9266D8836008D2321 /* SceneDelegate.swift */,
 				4F78F8D4266DBF88008D2321 /* addUser.swift */,
@@ -157,6 +160,7 @@
 				4F78F8C2266D8836008D2321 /* tableViewUserDefaults.xcdatamodeld in Sources */,
 				4F78F8D5266DBF88008D2321 /* addUser.swift in Sources */,
 				4F78F8BC266D8836008D2321 /* ViewController.swift in Sources */,
+				4FD41303266E42C800637F47 /* editUserViewController.swift in Sources */,
 				4F78F8B8266D8836008D2321 /* AppDelegate.swift in Sources */,
 				4F78F8D1266DA4C7008D2321 /* Student.swift in Sources */,
 				4F78F8D3266DB0BC008D2321 /* customCellTableViewCell.swift in Sources */,
